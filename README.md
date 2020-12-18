@@ -7,12 +7,18 @@ RxArcFace —— 基于虹软人脸识别SDK的Rx封装
 
 虽然各厂商为我们提供了优质的人脸识别SDK，但其中包含了较多的无意义代码，例如错误处理，检测，剖析，而开发者在接入时往往不是非常关心这些事情，RxArcFace旨在将虹软人脸识别SDK的模板化操作封装，并结合RxJava2，带给开发者流畅的开发体验
 
+## Demo截图
+
+![a.jpg](https://upload-images.jianshu.io/upload_images/17794320-ee18aedbc25488c8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 > SDK准备工作请参考 
 > https://ai.arcsoft.com.cn/manual/docs#/139 
 > https://ai.arcsoft.com.cn/manual/docs#/140  **只需看3.1**
 > 这里将不再累述
 
 # 使用 RxArcFace
+
+代码不多，建议直接clone我的项目下来使用
 
 在app的build.gradle中
 
