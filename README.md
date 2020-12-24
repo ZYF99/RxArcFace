@@ -17,27 +17,17 @@ RxArcFace —— 基于虹软人脸识别SDK的Rx封装
 > 这里将不再累述
 
 # 使用 RxArcFace
-
-代码不多，建议直接clone我的项目下来使用
-
-在app的build.gradle中
-
-```rust
-allprojects {
-        repositories {
-            ...
-            maven { url 'https://jitpack.io' }
-        }
-    }
-
-    dependencies {
-            implementation 'com.github.ZYF99:RxArcFace:1.0'
-                //RxJava2
-            implementation "io.reactivex.rxjava2:rxjava:2.2.13"
-            implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
-            implementation "io.reactivex.rxjava2:rxkotlin:2.3.0"
-    }
+- clone项目到本地 https://github.com/ZYF99/RxArcFace.git
+- 在需要使用的项目中 引入RxArcFace的Module
+![](https://upload-images.jianshu.io/upload_images/17794320-5d00bce45301557c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+- 选中刚才克隆下的项目文件夹中的RxArcFaceModule
+![](https://upload-images.jianshu.io/upload_images/17794320-f04c0ef7ceda8aa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+- 在自己项目的app的build.gradle中添加依赖
 ```
+implementation project(path: ':RxArcFacelibrary')
+```
+![](https://upload-images.jianshu.io/upload_images/17794320-7ce81e4cbacfddbd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 #### 添加权限
 
