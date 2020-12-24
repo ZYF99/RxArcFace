@@ -7,8 +7,11 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/RxArcFacelibrary/libs
+/RxArcFacelibrary/src/main/jniLibs
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
+/RxArcFacelibrary/libs/
