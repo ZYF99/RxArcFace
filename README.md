@@ -27,6 +27,7 @@ RxArcFace —— 基于虹软人脸识别SDK的Rx封装
 implementation project(path: ':RxArcFacelibrary')
 ```
 ![](https://upload-images.jianshu.io/upload_images/17794320-7ce81e4cbacfddbd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+- 将自己在官网下载的SDK依赖包替换掉 RxArcFaceLibrary下libs、jniLibs 中的依赖包
 
 
 #### 添加权限
