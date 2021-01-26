@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         initArcSoftEngine(
             this,
-            "7MVVpFRp3jchfmMTNi14X23Y3h7KymTqzDj74dH8a1b",
-            "257C6KyNuwbKkxencfcUCCt3iYFQYPZoDbcwyphb6p4p"
+            "",
+            ""
         )
 
         initCameraOrigin(findViewById(R.id.surface_view))
